@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saiba cronometrar seu tempo usando esse cronômetro">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--FONTES PERSONALIZADAS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!---->
+
+    <title>Cronometro Online</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div>
+                <a href="https://abismodev.com/"><img class="logo" src="assets/logo.svg" alt="uma imagem do logo AbismoDev" title="LOGO"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="cronometro-container">
+            <section>
+                <h1>Cronômetro Digital</h1>
+                <div class="cronometro-display">
+                    <div class="cronometro-box">
+                        <div class="cronometro-indicativo">
+                            <span>Horas</span>
+                            <span>Minutos</span>
+                            <span>Segundos</span>
+                        </div>
+                        <span id="cronometro">0 : 0 : 0</span>
+                    </div>
+                    <div class="cronometro-btn">
+                        <button id="resetarContagem">Resetar</button>
+                        <button id="iniciarContagem">Iniciar</button>
+                        <button id="pararContagem">Parar</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="link-rodape">
+                <nav class="nav-rodape">
+                    <ul>
+                        <li><a href="https://github.com/AbismoDev" target="_blank">Github</a></li>
+                        <li><a href="https://abismodev.com/" target="_blank">Portifólio</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="creditos">
+                <p>Site desenvolvido com <img class="icon-coracao" src="assets/icon-coracao.svg" alt="amor" title="Amor"> por <a href="https://www.instagram.com/abismodev_" target="_blank">AbismoDev</a>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
